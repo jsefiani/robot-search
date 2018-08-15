@@ -5,7 +5,7 @@ const Scroll = (props) => {
         <div style={
             {
                 overflowY: 'scroll', 
-                border: '1px solid black', 
+                boxShadow: 'inset 0px 5px 20px rgba(0,0,0,.5)',
                 height: '500px',
             }
         }>
